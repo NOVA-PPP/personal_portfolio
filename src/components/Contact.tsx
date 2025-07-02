@@ -38,15 +38,15 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'prathamesh@example.com',
-      href: 'mailto:prathamesh@example.com',
+      value: 'prathameshpatil06082004@gmail.com',
+      href: 'mailto:prathameshpatil06082004@gmail.com',
       color: 'from-blue-500 to-blue-600'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 98765 43210',
-      href: 'tel:+919876543210',
+      value: '+91 94035 32861',
+      href: 'tel:+919403532861',
       color: 'from-green-500 to-green-600'
     },
     {
@@ -62,13 +62,13 @@ const Contact: React.FC = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com',
+      href: 'https://github.com/NOVA-PPP',
       color: 'bg-gray-800 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-600'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com',
+      href: 'www.linkedin.com/in/prat684',
       color: 'bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600'
     },
     {
