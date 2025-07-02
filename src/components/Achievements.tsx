@@ -25,9 +25,9 @@ const Achievements: React.FC = () => {
       highlight: false
     },
     {
-      title: 'JEE Advanced',
+      title: 'JEE Mains',
       subtitle: 'Top 4% Nationwide',
-      description: 'Secured top 4% ranking in JEE Advanced, one of India\'s most competitive engineering entrance examinations.',
+      description: 'Secured top 4% ranking in JEE Mains, one of India\'s most competitive engineering entrance examinations.',
       icon: Target,
       category: 'Academic',
       year: '2022',
@@ -50,7 +50,7 @@ const Achievements: React.FC = () => {
     {
       title: 'Academic Affairs Secretary',
       organization: 'IIIT Raichur',
-      period: '2023 - Present',
+      period: '2023 - 2024',
       description: 'Leading academic initiatives and student welfare programs, coordinating between administration and students.',
       icon: Users,
       responsibilities: [
@@ -63,7 +63,7 @@ const Achievements: React.FC = () => {
     {
       title: 'Electrogeeks Club Member',
       organization: 'IIIT Raichur',
-      period: '2022 - Present',
+      period: '2023 - 2024',
       description: 'Active member contributing to electronics and embedded systems projects, mentoring junior students.',
       icon: Star,
       responsibilities: [
@@ -300,12 +300,12 @@ const Achievements: React.FC = () => {
           <div className="grid md:grid-cols-4 gap-8">
             {[
               {
-                number: '5+',
+                number: '4+',
                 label: 'Awards & Recognitions',
                 description: 'Academic and competition achievements'
               },
               {
-                number: '3+',
+                number: '6+',
                 label: 'Leadership Roles',
                 description: 'Active involvement in student organizations'
               },
