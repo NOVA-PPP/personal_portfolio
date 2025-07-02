@@ -132,7 +132,7 @@ const About: React.FC = () => {
               {
                 icon: Target,
                 title: 'Focus Areas',
-                content: 'Speech Processing\nAutonomous Systems\nDeep Learning',
+                content: 'Speech Processing\nAutonomous Systems\nDeep Learning\n5G IoT and its Applications',
                 color: 'from-orange-500 to-orange-600',
               },
             ].map((item, index) => (
