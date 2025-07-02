@@ -5,18 +5,18 @@ import { motion } from 'framer-motion';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      title: 'AI/ML Engineer Intern',
+      title: 'AI/ML Engineer Intern (5G and IoT)',
       company: 'ARTPARK (IISc Bangalore)',
       location: 'Bangalore, India',
-      period: '2024 - Present',
-      type: 'Internship',
+      period: '2025 - Present',
+      type: '5G Intern',
       description: [
-        'Developing advanced AI/ML solutions for real-world applications',
-        'Working on cutting-edge research projects in artificial intelligence',
+        'Developing advanced AI/ML solutions for real-world applications based on private 5G network',
+        'Working on cutting-edge research projects in AI & 5G integration',
         'Collaborating with renowned researchers and industry experts',
-        'Contributing to open-source AI initiatives and publications'
+        'Contributing to open-source AI/5G initiatives and publications'
       ],
-      technologies: ['Python', 'PyTorch', 'TensorFlow', 'Computer Vision', 'NLP'],
+      technologies: ['5G', 'IoT', 'Python', 'C/C++', 'Pytorch', 'Computer Vision', 'Data Analysis'],
       color: 'from-blue-500 to-blue-600'
     },
     {
@@ -26,10 +26,11 @@ const Experience: React.FC = () => {
       period: '2023 - 2024',
       type: 'Research',
       description: [
-        'Conducted research on autonomous systems and IoT applications',
-        'Developed machine learning models for predictive maintenance',
-        'Implemented signal processing algorithms for sensor data analysis',
-        'Contributed to patent applications for innovative solutions'
+        'Engineered an end-to-end Real-Time Location System (RTLS) from concept to implementation, building the system from scratch.',
+        'Conducted research on autonomous systems and Real time IoT applications',
+        'Architected the system using DWM1000 UWB modules for precise positioning, ESP8266 for Wi-Fi communication, and a Python-based MQTT client for data transmission.',
+        'Contributed to patent applications for innovative solutions',
+        'Surpassed the primary accuracy goal of <40 cm by achieving a final system error of <15 cm, demonstrating exceptional precision in indoor tracking.'
       ],
       technologies: ['C++', 'Python', 'MATLAB', 'IoT', 'Signal Processing'],
       color: 'from-green-500 to-green-600'
