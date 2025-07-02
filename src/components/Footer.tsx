@@ -11,12 +11,12 @@ const Footer: React.FC = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: 'https://github.com',
+      href: 'https://github.com/NOVA-PPP',
       label: 'GitHub',
     },
     {
       icon: Linkedin,
-      href: 'https://linkedin.com',
+      href: 'www.linkedin.com/in/prat684',
       label: 'LinkedIn',
     },
     {
@@ -114,8 +114,8 @@ const Footer: React.FC = () => {
             <div className="space-y-3 text-gray-400">
               <p>
                 <span className="font-medium">Email:</span><br />
-                <a href="mailto:prathamesh@example.com" className="hover:text-primary-400 transition-colors">
-                  prathamesh@example.com
+                <a href="mailto:prathameshpatil06082004@gmail.com" className="hover:text-primary-400 transition-colors">
+                  prathameshpatil06082004@gmail.com
                 </a>
               </p>
               <p>
